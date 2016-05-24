@@ -1,0 +1,134 @@
+body {
+    background-color: #393e49;
+    color: #afafaf;
+}
+
+div.browse {
+    padding-bottom:20px;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    position:relative;
+    right:20px;
+    bottom:20px;
+}
+
+span#time {
+    
+    position:relative;
+    bottom:175px;
+    left:750px;
+    color:black;
+}
+
+div.browse:hover {
+    background-color: #161b1c;
+}
+
+.img {
+    height: 230px;
+    width: 230px;
+    border:none;
+    padding-right:20px;
+    padding-bottom:5px;
+    float:left;
+}
+
+span.animalDesc {
+    vertical-align: middle;
+    height: 200px;
+}
+
+a{
+    color:yellowgreen;
+}
+
+div#wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+div.header {
+    height: 195px;
+    width: 960px;
+}
+
+div#container {
+    overflow: hidden;
+}
+
+div.sidebar {
+    background-color: #292c33;
+    float: left;
+    width: 220px;
+    padding-top: 9999px;
+    padding-bottom: 9999px;
+    margin-top: -9999px;
+    margin-bottom: -9999px;
+}
+
+    div.sidebar a {
+        color: #afafaf;
+        text-decoration: none;
+    }
+
+div.content {
+    background-color: #292c33;
+    position: relative;
+    float: right;
+    padding: 20px;
+    width: 680px;
+    min-height: 400px;
+    text-align:justify;
+}
+
+div.footer {
+    color: #afafaf;
+    position:relative;
+    background-color: #292c33;
+    height:30px;
+    top:20px; 
+    width:100%;
+}
+
+div table#tableLength{
+    width:100%;
+}
+
+td#rightAlign{
+    text-align:right;
+}
+
+td#leftAlign{
+    text-align:left;    
+}
+
+div ul.navigation {
+    list-style-type: none;
+    padding: 0px;
+}
+
+div#blank{
+    width:100%;
+    height:250px;
+}
+
+    div ul.navigation li {
+        width: 200px;
+        padding: 10px;
+    }
+
+        div ul.navigation li:not(.active) {
+            color: #afafaf;
+            background-color: #292c33;
+        }
+
+        div ul.navigation li:hover:not(.active) {
+            color: #afafaf;
+            background-color: #161b1c;
+        }
+
+div li.active {
+    background-color: #142227;
+    color: #afafaf;
+}
